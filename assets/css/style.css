@@ -1,0 +1,89 @@
+
+body{
+	background-image: url("../images/background.jpeg") ;
+	background-size: cover;
+	
+}
+div{
+	margin: 10px;
+	margin-left: 30px;
+	width: 25%;
+}
+div {
+	border: solid 2px #A480CA;
+	padding: 10px;
+}
+div.header {
+	background-color: #4422d0;
+	width: 25%;
+	height: 5%;
+	margin-top: 2px;
+	
+
+}
+div.Instructions {
+	background-color: #22b0d0;
+	width: 35%;
+	height: 35%;
+	margin-top: 10px;
+}
+h1, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1 {
+	font-size: 40px;
+	color: #22d06d;
+}
+h2 {
+	size: 30px;
+
+}
+p {
+	font-size: 20px;
+	color: #2241d0;
+}
+
+
+span#randomNumber {
+	font-size: 35px;
+}
+div.gems {
+	background-color: #4422d0;
+	width: 30%;
+	height: 10%;
+	padding-left: 5%;
+}
+.numberToMatch {
+	float: left;
+	width: 15%;
+	height: 10%;
+	background-color: #2241d0; 
+
+}
+.winsAndLosses {
+	font-size: 20px;
+	float: left;
+	width: 10%;
+	height: 10%;
+	background-color: #22d06d;
+
+}
+.userScore{
+	width: 25%;
+	height: 15%;
+	/*margin-left: 10px;*/
+	font-size: 25px;
+	color: #2241d0;
+	background-color: #22d0bc;
+}
+.gems{
+	clear: both;
+}
+
+#red, #green, #blue, #yellow {
+	width: 80px;
+	height: 80px;
+	padding-top: 3px;
+	margin-right: 25px;
+}
